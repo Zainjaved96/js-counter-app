@@ -1,0 +1,64 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'poppins';
+}
+
+.container {
+    padding: 20px;
+    margin: 20px 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    padding: 20px;
+    text-align: center;
+    box-shadow: rgb(115, 120, 129) 5px 5px 5px;
+}
+
+.counter-head {
+    font-size: 40px;
+  font-family: 600;
+}
+
+
+.count {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+button {
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#increment {
+    background-color: rgb(140, 46, 235);
+    color: whitesmoke;
+}
+
+#save {
+    background-color: rgb(235, 46, 172);
+}
+
+#reset {
+    background-color: #195DE6;
+}
+.prev-count {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+body {
+    background-color: cadetblue;
+    background-position: center;
+    background-size: cover;
+}

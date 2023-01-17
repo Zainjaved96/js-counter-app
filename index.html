@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="index.css">    
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+        <div class="counter">
+            <p class="counter-head">Counter App</p>
+            
+            <h2 class="count" id="count">0</h2>
+            <div class="row">
+                <div class="col-lg- heading">
+                    <button type="button" id="increment" onclick="increment()" class="btn btn-primary">INCREMENT</button>
+                </div>
+                <div class="col-lg-12">
+                    <button type="button" id="save" onclick="saveCount()" class="btn btn-primary">SAVE</button>
+                </div>
+                <div class="div">
+                  <button type="button" id="reset" onclick="resetCount()" class="btn btn-primary">REST</button>
+                </div>
+              </div>
+            <pre id="prev-count">Previous Counts are: <br></pre>
+            <pre id="save-count"> </pre>
+            
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
